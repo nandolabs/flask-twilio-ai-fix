@@ -1,0 +1,14 @@
+# This file is provided for backward compatibility.
+# For modern Python development, use pyproject.toml with uv:
+#   uv venv
+#   uv pip install -e ".[dev]"
+
+flask>=3.0.0
+twilio>=8.10.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Dev dependencies
+pytest>=7.4.3
+pytest-cov>=4.1.0
+ruff>=0.1.6
