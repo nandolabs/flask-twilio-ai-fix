@@ -1,8 +1,11 @@
 # Flask Twilio AI Fix
 
-Demo project that reproduces a small Twilio + Flask bug and shows a clean
-fix. This is a portfolio-quality item for NandoLabs and follows the
-NandoLabs Global Guidelines.
+## Real-World Scenario
+
+This issue commonly appears when Twilio webhooks are modified, refactored, or integrated with AI or external services. A small formatting or response error can silently break call flows in production.
+
+On this project you will find scenarios that reproduces a small Twilio + Flask bug and shows a clean
+fix.
 
 Features
 - /voice endpoint that simulates a Twilio Voice webhook
